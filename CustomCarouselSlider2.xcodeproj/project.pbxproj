@@ -11,6 +11,9 @@
 		38C0E4ED26FB03D2006507FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0E4EC26FB03D2006507FD /* ContentView.swift */; };
 		38C0E4EF26FB03D4006507FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C0E4EE26FB03D4006507FD /* Assets.xcassets */; };
 		38C0E4F226FB03D4006507FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C0E4F126FB03D4006507FD /* Preview Assets.xcassets */; };
+		38C0E4FC26FB043F006507FD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0E4FB26FB043F006507FD /* Home.swift */; };
+		38C0E4FE26FB0494006507FD /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0E4FD26FB0494006507FD /* SnapCarousel.swift */; };
+		38C0E50026FB0699006507FD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0E4FF26FB0699006507FD /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		38C0E4EE26FB03D4006507FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38C0E4F126FB03D4006507FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		38C0E4F326FB03D4006507FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C0E4FB26FB043F006507FD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		38C0E4FD26FB0494006507FD /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+		38C0E4FF26FB0699006507FD /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,8 @@
 		38C0E4E926FB03D2006507FD /* CustomCarouselSlider2 */ = {
 			isa = PBXGroup;
 			children = (
+				38C0E4FA26FB0426006507FD /* View */,
+				38C0E4F926FB0416006507FD /* Model */,
 				38C0E4EA26FB03D2006507FD /* CustomCarouselSlider2App.swift */,
 				38C0E4EC26FB03D2006507FD /* ContentView.swift */,
 				38C0E4EE26FB03D4006507FD /* Assets.xcassets */,
@@ -67,6 +75,23 @@
 				38C0E4F126FB03D4006507FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38C0E4F926FB0416006507FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38C0E4FF26FB0699006507FD /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38C0E4FA26FB0426006507FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38C0E4FB26FB043F006507FD /* Home.swift */,
+				38C0E4FD26FB0494006507FD /* SnapCarousel.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C0E4ED26FB03D2006507FD /* ContentView.swift in Sources */,
+				38C0E4FE26FB0494006507FD /* SnapCarousel.swift in Sources */,
+				38C0E4FC26FB043F006507FD /* Home.swift in Sources */,
 				38C0E4EB26FB03D2006507FD /* CustomCarouselSlider2App.swift in Sources */,
+				38C0E50026FB0699006507FD /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
